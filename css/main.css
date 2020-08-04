@@ -1,0 +1,45 @@
+body{
+	font-family: 'Roboto', sans-serif;	
+}
+.container {
+    width: 1170px;
+    margin: 0 auto;
+    background: #f6f6f6;
+    padding: 25px;
+    height: 100vh;
+    box-shadow: 0 0 8px 0 #00000045;
+}
+.container .header{
+	font-size:15px;
+}
+.header{
+	font-size:25px;
+}
+.logo {
+    float: left;
+    width: 150px;
+}
+.menu {
+    float: left;
+    width: calc(100% - 150px);
+	text-align: right;
+}
+.menu ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: inline-block;
+    width: 100%;
+}
+.menu ul li a {
+	color: #333;
+    text-decoration: none;
+    font-size: 17px;
+    text-transform: uppercase;
+    display: inline-block;
+    padding: 4px 20px;
+    font-weight: 500;
+}
+.menu ul li {
+    display: inline-block;
+}
