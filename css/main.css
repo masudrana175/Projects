@@ -1,3 +1,7 @@
+/* Font import */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
 body{
 	font-family: 'Roboto', sans-serif;	
 }
@@ -43,3 +47,51 @@ body{
 .menu ul li {
     display: inline-block;
 }
+.menu a{
+	color:#ff0000;
+}
+a{
+	text-decoration:none;
+}
+a:hover{
+	text-decoration:underline;
+}
+.container_inner{
+    background: #cccccc52;
+    padding: 25px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+section.main-content {
+    clear: both;
+    overflow: hidden;
+}
+.container_inner p {
+    font-size: 31px;
+	font-family:'Helvetica Neue';
+}
+.container_inner{
+	background:url(../img/wolfgang-hasselmann-hx0i1anhEAo-unsplash.jpg) no-repeat center center;
+	
+}
+@font-face {
+    font-family: 'Helvetica Neue';
+    src: url('../fonts/HelveticaNeue-Thin.eot');
+    src: url('../fonts/HelveticaNeue-Thin.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/HelveticaNeue-Thin.woff2') format('woff2'),
+        url('../fonts/HelveticaNeue-Thin.woff') format('woff'),
+        url('../fonts/HelveticaNeue-Thin.ttf') format('truetype'),
+        url('../fonts/HelveticaNeue-Thin.svg#HelveticaNeue-Thin') format('svg');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+
+
+
+
+
+
+
