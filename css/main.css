@@ -1,22 +1,12 @@
-/* Font import */
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-
+body{
+	font-family: 'Basis Grotesque Medium';
+	font-size: 14px;
+    line-height: 1.5em;
+    color: #000;
+}
 *{
 	margin:0;
 	padding:0;
-}
-body{
-	font-family: 'Roboto', sans-serif;
-	font-size: 14px;
-    line-height: 1.5em;
-    color: #333;
-}
-.container {
-    width: 1170px;
-    margin: 0 auto;
-    background: #fff;
-    padding: 0;
-    box-shadow: 0 0 8px 0 #00000045;
 }
 header.header {
     padding: 10px 20px;
@@ -92,7 +82,7 @@ a.readMore {
     display: inline-block;
     padding: 9px 19px;
     margin-top: 30px;
-    border-radius: 4px;
+    border-radius: 3px;
 }
 a.readMore:hover{
 	background:#000;
@@ -166,15 +156,188 @@ section.main-content {
 	background:url(../img/wolfgang-hasselmann-hx0i1anhEAo-unsplash.jpg) no-repeat center center;
 	
 }
+.header_top_area {
+    background: #00abb3;
+	color:#fff;
+	padding: 8px 0;
+}
+.header_top_area a{
+	color:#fff;
+}
+a:hover{
+	text-decoration:none;
+}
+.header_social ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.header_social ul li {
+    display: inline-block;
+}
+.header_social ul li a {
+    padding: 0 9px;
+    font-size: 17px;
+}
+.header_social {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.header_left a:last-child{
+    margin-left: 30px;
+}
+ul.main_menu {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: right;
+}
+ul.main_menu li {
+	display: inline-block;
+    line-height: 56px;
+}
+ul.main_menu li a {
+    color: #000;
+    text-transform: capitalize;
+    font-size: 19px;
+    display: block;
+    padding: 0 20px;
+
+}
+.header_area {
+    padding: 20px 0;
+}
+ul.main_menu li:last-child a,.header_social ul li:last-child a{
+	padding-right:0;
+}
+.slider_area{
+	background:url(../img/banner.jpg) no-repeat center center;
+	background-size:cover;
+}
+.banner_text, .banner_text p {
+    color: #fff;
+}
+a.btn {
+    background: #00abb3;
+    color: #fff;
+}
+.banner_text {
+    padding: 150px 0 150px 85px;
+}
+
+.banner_text h2 {
+    font-size: 47px;
+    margin-bottom: 30px;
+}
+.banner_text p {
+    font-family: 'Basis Grotesque Medium';
+    font-size: 18px;
+    color: #cecccc;
+    margin-bottom: 29px;
+}
+.searvice_area{
+	background:url(../img/service_bg.jpg) repeat-x top center;
+}
+
+.banner_text h2 {
+    font-family: 'Basis Grotesque Pro Light';
+}
+.banner_text p{
+	font-family: 'Basis Grotesque Medium';	
+}
+.top_left,.top_right{
+	background:url(../img/ga_1.jpg) no-repeat center center;
+	    margin-bottom: 30px;
+}
+.gallery_right span {
+    color: #fff;
+    text-align: center;
+    display: block;
+    font-size: 21px;
+    padding-bottom: 20px;
+}
+.botton_full{
+	background:url(../img/ga_full.jpg) no-repeat center center;
+}
+.gallery_right{
+	padding-top:180px;
+}
+.gallery_right {
+    background-size: cover;
+}
+.left_image_full{
+	background:url(../img/full_width_left.jpg) no-repeat center center;
+	background-size:cover;
+	 min-height: 255px;
+}
+.full_width .right_text {
+    background: #04bac2;
+	height: 100%;
+}
+.full_width .col-md-6 {
+    padding: 0;
+}
+.full_width .row {
+    margin: 0;
+}
+.inner_text {
+    max-width: 540px;
+    padding: 20px;
+}
+/*
+
+font-family: 'Basis Grotesque Bold';
+font-family: 'Basis Grotesque Medium';
+font-family: 'Basis Grotesque Regular';
+font-family: 'Basis Grotesque Pro Light';
+
+base color: 00abb3
+*/
+
 @font-face {
-    font-family: 'Helvetica Neue';
-    src: url('../fonts/HelveticaNeue-Thin.eot');
-    src: url('../fonts/HelveticaNeue-Thin.eot?#iefix') format('embedded-opentype'),
-        url('../fonts/HelveticaNeue-Thin.woff2') format('woff2'),
-        url('../fonts/HelveticaNeue-Thin.woff') format('woff'),
-        url('../fonts/HelveticaNeue-Thin.ttf') format('truetype'),
-        url('../fonts/HelveticaNeue-Thin.svg#HelveticaNeue-Thin') format('svg');
-    font-weight: 100;
+    font-family: 'Basis Grotesque Bold';
+    src: url('../fonts/BasisGrotesque-Bold.eot');
+    src: url('../fonts/BasisGrotesque-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/BasisGrotesque-Bold.woff2') format('woff2'),
+        url('../fonts/BasisGrotesque-Bold.woff') format('woff'),
+        url('../fonts/BasisGrotesque-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Basis Grotesque Medium';
+    src: url('../fonts/BasisGrotesque-Medium.eot');
+    src: url('../fonts/BasisGrotesque-Medium.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/BasisGrotesque-Medium.woff2') format('woff2'),
+        url('../fonts/BasisGrotesque-Medium.woff') format('woff'),
+        url('../fonts/BasisGrotesque-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Basis Grotesque Regular';
+    src: url('../fonts/BasisGrotesque-Regular.eot');
+    src: url('../fonts/BasisGrotesque-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/BasisGrotesque-Regular.woff2') format('woff2'),
+        url('../fonts/BasisGrotesque-Regular.woff') format('woff'),
+        url('../fonts/BasisGrotesque-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Basis Grotesque Pro Light';
+    src: url('../fonts/BasisGrotesquePro-Light.eot');
+    src: url('../fonts/BasisGrotesquePro-Light.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/BasisGrotesquePro-Light.woff2') format('woff2'),
+        url('../fonts/BasisGrotesquePro-Light.woff') format('woff'),
+        url('../fonts/BasisGrotesquePro-Light.ttf') format('truetype');
+    font-weight: 300;
     font-style: normal;
     font-display: swap;
 }
