@@ -295,6 +295,23 @@ font-family: 'Basis Grotesque Pro Light';
 base color: 00abb3
 */
 
+@media (min-width:1025px){
+	
+}
+@media (max-width:1024px){
+	
+}
+@media (max-width:812px){
+	
+}
+@media (max-width:500px){
+	.service_heading {
+		background: #000;
+	}
+}
+
+
+
 @font-face {
     font-family: 'Basis Grotesque Bold';
     src: url('../fonts/BasisGrotesque-Bold.eot');

@@ -7,7 +7,12 @@
   <link rel="apple-touch-icon" href="icon.png">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
   <link rel="stylesheet" href="css/bootstrap.css">
+  
+  <link rel="stylesheet" href="themes/default/default.css" type="text/css" media="screen" />
+  <link rel="stylesheet" href="css/nivo-slider.css" type="text/css" media="screen" />  
   <link rel="stylesheet" href="css/main.css">
+  
+  <link rel="stylesheet" href="css/responsive.css">
 	
 </head>
 <body>
@@ -60,17 +65,18 @@
 	</div>
 	<!-- Banner area -->
 	<div class="slider_area">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-6 offset-md-6 offset-sm-0 ">
-					<div class="banner_text">
-						<h2>In viverra nisl<br>
-						quisnc vehicula</h2>
-						<p>Nam a porta velit. Nulla aliquet risus pellentesque. Etiam porttitor ultrices magna blandit ac.</p>
-						<a href="#" class="btn">Contact Us</a>
-					</div>
-				</div>
-			</div>
+		<div class="slider-wrapper theme-default">
+			<div id="slider" class="nivoSlider">
+			
+				<img src="img/ga_full.jpg" data-thumb="img/ga_full.jpg" alt="" />
+				
+				<a href="#">
+					<img src="img/up.jpg" data-thumb="img/up.jpg" alt="" title="#htmlcaption" />
+				</a>
+				 
+				 
+			 </div>
+			<div id="htmlcaption" class="nivo-html-caption"> <strong>This</strong> is an example of a <em>HTML</em> caption with <a href="#">a link</a>. </div>
 		</div>
 	</div>
 	<!-- Service section -->
@@ -181,5 +187,13 @@ umfasst neben dem CNC–Fräsen:</p>
 		</div>
 	</div>
 	</div>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script> 
+	<script type="text/javascript" src="js/jquery.nivo.slider.js"></script>
+	
+	<script type="text/javascript">
+    $(window).load(function() {
+        $('#slider').nivoSlider();
+    });
+    </script> 
 </body>
 </html>
