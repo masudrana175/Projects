@@ -270,6 +270,7 @@ a.btn {
 	background:url(../img/full_width_left.jpg) no-repeat center center;
 	background-size:cover;
 	 min-height: 255px;
+	     height: 100%;
 }
 .full_width .right_text {
     background: #04bac2;
@@ -283,7 +284,140 @@ a.btn {
 }
 .inner_text {
     max-width: 540px;
-    padding: 20px;
+    padding: 58px 20px;
+}
+.full_width {
+    margin-bottom: 78px;
+}
+.footer_top{
+    background: url(../img/footer_cta.png) no-repeat center center;
+    background-size: cover;
+    padding:66px 0 56px;
+    text-align: center;
+    margin-top: 63px;
+}
+.footer_area{
+	background:url(../img/footer.jpg) no-repeat center center;
+	background-size:cover;
+}
+.footer_bottom{
+	background: #000;
+    text-align: center;
+    color: #fff;
+    padding: 10px 0;
+}
+.footer_bottom p {
+    color: #fff;
+    margin-bottom: 0;
+    padding: 7px 0 4px;
+    font-weight: 300;
+    font-size: 11px;
+}
+.theme-default .nivo-controlNav{
+	display:none;
+}
+.theme-default .nivoSlider {
+    margin-bottom: 0;
+}
+.footer_left img {
+    margin-bottom: 24px;
+}
+.footer-col ul li {
+    padding: 0 0 8px 0;
+}
+.footer_left ul li {
+    margin-bottom: 6px;
+}
+.theme-default .nivoSlider {
+    margin-bottom: 10px;
+    -webkit-box-shadow: 0px 0px 0px 0px #4a4a4a;
+    -moz-box-shadow:0px 0px 0px 0px #4a4a4a;
+box-shadow: 0px 0px 0px 0px #4a4a4a!important;
+}
+h2 {
+    font-size: 43px;
+    font-weight: normal;
+	font-family: 'Basis Grotesque Regular';
+}
+.service_heading {
+    text-align: center;
+    margin:20px 0 45px;
+}
+.gallery_left h3 {
+    font-size: 35px;
+}
+.gallery_left p {
+    font-size: 17px;
+    line-height: 26px;
+}
+.searvice_area {
+    background: #fff url(../img/promo_bg.png) repeat-x;
+    margin-bottom: 119px;
+    padding-top: 31px;
+}
+.service_heading p {
+    font-size: 20px;
+    margin-top: 0;
+}
+.service_heading h2 {
+    margin-bottom: 0;
+}
+.service_col {
+    background: #fff;
+    padding: 10px;
+    box-shadow: 0 0 32px 0 #00000026;
+}
+.service_col h3 {
+    font-family: 'Basis Grotesque Bold';
+    font-size: 20px;
+    margin-bottom: 10px;
+	margin-top: 20px;
+}
+.inner_text h3 {
+    font-family: 'Basis Grotesque Pro Light';
+    font-size: 43px;
+    line-height: 46px;
+    font-weight: 200;
+	color:#fff;
+}
+.inner_text p {
+    color: #fff;
+    margin-bottom: 0;
+    font-size: 17px;
+}
+.footer_content h3 {
+    font-family: 'Basis Grotesque Bold';
+}
+.footer_content h4 {
+    font-size: 20px;
+    max-width: 865px;
+    margin: 0 auto;
+    line-height: 27px;
+}
+.footer_area {
+    background: url(../img/footer.jpg) no-repeat center center;
+    background-size: cover;
+    padding: 60px 0 45px;
+    color: #fff;
+}
+.footer_area ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    color: #fff;
+}
+.footer_area ul a, .footer_area p, .footer_area {
+    color: #fff;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 22px;
+}
+.footer_area h3 {
+    font-size: 23px;
+    font-family: 'Basis Grotesque Medium';
+}
+.footer_left ul li i {
+    margin-right: 4px;
 }
 /*
 
@@ -310,8 +444,6 @@ base color: 00abb3
 	}
 }
 
-
-
 @font-face {
     font-family: 'Basis Grotesque Bold';
     src: url('../fonts/BasisGrotesque-Bold.eot');
@@ -323,6 +455,7 @@ base color: 00abb3
     font-style: normal;
     font-display: swap;
 }
+
 @font-face {
     font-family: 'Basis Grotesque Medium';
     src: url('../fonts/BasisGrotesque-Medium.eot');
@@ -358,10 +491,6 @@ base color: 00abb3
     font-style: normal;
     font-display: swap;
 }
-
-
-
-
 
 
 

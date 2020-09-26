@@ -1,12 +1,47 @@
 @font-face {
-    font-family: 'Helvetica Neue';
-    src: url('HelveticaNeue-Thin.eot');
-    src: url('HelveticaNeue-Thin.eot?#iefix') format('embedded-opentype'),
-        url('HelveticaNeue-Thin.woff2') format('woff2'),
-        url('HelveticaNeue-Thin.woff') format('woff'),
-        url('HelveticaNeue-Thin.ttf') format('truetype'),
-        url('HelveticaNeue-Thin.svg#HelveticaNeue-Thin') format('svg');
-    font-weight: 100;
+    font-family: 'Basis Grotesque';
+    src: url('BasisGrotesque-Bold.eot');
+    src: url('BasisGrotesque-Bold.eot?#iefix') format('embedded-opentype'),
+        url('BasisGrotesque-Bold.woff2') format('woff2'),
+        url('BasisGrotesque-Bold.woff') format('woff'),
+        url('BasisGrotesque-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Basis Grotesque';
+    src: url('BasisGrotesque-Medium.eot');
+    src: url('BasisGrotesque-Medium.eot?#iefix') format('embedded-opentype'),
+        url('BasisGrotesque-Medium.woff2') format('woff2'),
+        url('BasisGrotesque-Medium.woff') format('woff'),
+        url('BasisGrotesque-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Basis Grotesque';
+    src: url('BasisGrotesque-Regular.eot');
+    src: url('BasisGrotesque-Regular.eot?#iefix') format('embedded-opentype'),
+        url('BasisGrotesque-Regular.woff2') format('woff2'),
+        url('BasisGrotesque-Regular.woff') format('woff'),
+        url('BasisGrotesque-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Basis Grotesque Pro';
+    src: url('BasisGrotesquePro-Light.eot');
+    src: url('BasisGrotesquePro-Light.eot?#iefix') format('embedded-opentype'),
+        url('BasisGrotesquePro-Light.woff2') format('woff2'),
+        url('BasisGrotesquePro-Light.woff') format('woff'),
+        url('BasisGrotesquePro-Light.ttf') format('truetype');
+    font-weight: 300;
     font-style: normal;
     font-display: swap;
 }
