@@ -17,14 +17,14 @@
 	<div class="header_top_area">
 		<div class="container">
 			<div class="row">
-				<div class="col-md-6">
+				<div class="col-md-6 col-sm-6">
 					<div class="header_left">
-						<a href="#"><i class="fa fa-phone" aria-hidden="true"></i>  + 49 2373 / 3991131</a>
-						<a href="#"><i class="fa fa-envelope-open-o" aria-hidden="true"></i>  info@fam-cnc.de</a>
+						<a href="#"><i class="fa fa-phone" aria-hidden="true"></i>  <span>+ 49 2373 / 3991131</span></a>
+						<a href="#"><i class="fa fa-envelope-open-o" aria-hidden="true"></i>  <span>info@fam-cnc.de</span></a>
 					</div>
 					
 				</div>
-				<div class="col-md-6">
+				<div class="col-md-6 col-sm-6">
 					<div class="header_social">
 						<span>Follow Us:</span>
 						<ul>
@@ -50,6 +50,9 @@
 					</div>
 				</div>
 				<div class="col-md-9">
+					<div class="mobile_menu">
+						<i class="fa fa-bars" aria-hidden="true"></i>
+					</div>
 					<ul class="main_menu">
 						<li><a href="#">Home</a></li>
 						<li><a href="#">About Us</a></li>
@@ -243,7 +246,10 @@ Ihr Sascha Flott</h4>
 	
 	<script type="text/javascript">
     $(window).load(function() {
-        $('#slider').nivoSlider();
+        $('#slider').nivoSlider({
+			effect: 'random',
+			slices: 15
+		});
     });
     </script> 
 </body>

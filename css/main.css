@@ -419,6 +419,9 @@ h2 {
 .footer_left ul li i {
     margin-right: 4px;
 }
+.mobile_menu{
+	display:none;
+}
 /*
 
 font-family: 'Basis Grotesque Bold';
@@ -436,12 +439,37 @@ base color: 00abb3
 	
 }
 @media (max-width:812px){
-	
+	.service_heading {
+	}
+	.header_left a span {
+		display: none;
+	}
+	.header_top_area .col-md-6 {
+		max-width: 50%!important;
+	}
+	.header_social>span {
+		display: none;
+	}
+	.mobile_menu{
+		display:block;
+	}
+	.main_menu{
+		display:none;
+	}
+	.header_area .row .col-md-3 {
+		width: 40%!important;
+	}
+	.header_area .row .col-md-9 {
+		width: 60%;
+		text-align: right;
+	}
+	.mobile_menu {
+		font-size: 25px;
+		margin-top: 13px;
+	}	
 }
 @media (max-width:500px){
-	.service_heading {
-		background: #000;
-	}
+
 }
 
 @font-face {
