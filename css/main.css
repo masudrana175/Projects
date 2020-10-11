@@ -279,6 +279,33 @@ a.btn {
 .full_width .col-md-6 {
     padding: 0;
 }
+.accordion_box {
+    max-width: 750px;
+    margin: 70px auto;
+}
+.accordion_box ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.accordion_box ul li {
+    background: #f6f6f6;
+    padding: 18px;
+    margin-bottom: 5px;
+}
+.accordion_box ul li .accrodion_heaer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 18px;
+}
+.accordion_box ul li .accordion_body {
+    color: #333;
+    margin-top: 24px;
+}
+.accordion_body{
+	display:none;
+}
 .full_width .row {
     margin: 0;
 }
@@ -422,6 +449,67 @@ h2 {
 .mobile_menu{
 	display:none;
 }
+.owl-carousel .col-md-3 {
+    width: 100%!important;
+    min-width: 100%;
+}
+.mobile_menu_main{
+    display: none;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    margin-top: 15px;
+}
+.mobile_menu_main li a {
+    color: #333;
+    font-size: 14px;
+    display: block;
+    padding: 6px 0;
+}
+.tabs_area {
+    max-width: 850px;
+    margin: 40px auto;
+    border: 1px solid #ddd;
+    padding: 20px;
+	min-height: 251px;
+	position: relative;
+}
+.tabs_area ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.tab_content {
+    position: absolute;
+    min-height: 261px;
+    width: 100%;
+    left: 0;
+    padding: 20px;
+    padding: 20px;
+	display: none;
+}
+.tab_content.tab_active {
+    display: block;
+}
+.tabs_area ul li {
+    flex: 0 0 32%;
+    text-align: center;
+}
+.tabs_area ul li a.tab_active {
+    background: #000;
+    color: #fff;
+}
+.tabs_area ul li a {
+    background: #ddd;
+    color: #000000a3;
+    display: block;
+    padding: 12px 0;
+    text-transform: uppercase;
+    font-size: 16px;
+}
 /*
 
 font-family: 'Basis Grotesque Bold';
@@ -432,13 +520,23 @@ font-family: 'Basis Grotesque Pro Light';
 base color: 00abb3
 */
 
+
+
 @media (min-width:1025px){
 	
 }
+
+@media (min-width:2000px){
+	
+}
+
 @media (max-width:1024px){
 	
 }
 @media (max-width:812px){
+	.inner_text h3 {
+		font-size: 34px;
+	}
 	.service_heading {
 	}
 	.header_left a span {
@@ -469,7 +567,7 @@ base color: 00abb3
 	}	
 }
 @media (max-width:500px){
-
+	
 }
 
 @font-face {
